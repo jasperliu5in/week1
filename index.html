@@ -7,12 +7,14 @@
     </head>
         <body id ="light">
             <button onclick = "console.log('hi');document.body.id = 'dark'">
-                Dark mode
+                dark mode
             </button>
-            
             <button onclick = "console.log('hi');document.body.id = 'light'">
                 light mode
             </button>
+            <script>
+
+            </script>
 
 
             <h1>My first webpage</h1>
@@ -42,6 +44,14 @@
                 console.log(family)
                 family.pet.happy = true;
                 console.log(console)
+                
+                let mood = prompt("How are you feeling");
+                if(mood === "sleepy"){
+                    alert('WAKE UP');
+                }else{
+                    alert("Oh! You are Feeling " + mood + ".");
+                }
+                console.log(mood);
             </script>
             <footer>
             <p>2026/12/3</p>
