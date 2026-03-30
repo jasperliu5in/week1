@@ -6,7 +6,6 @@ p  {
     background-color: black;
         color: rgb(0, 255, 225);
         padding: 20px;
-        display: inline-block;
 }
 h1 {
     background-color: black;
@@ -23,4 +22,11 @@ h2 {
         color: rgb(0, 55, 255);    
         padding: 20px;
 }
+    footer p{
+        margin-block: 0;
+        padding: 0;
+    }
+    footer{
+        padding: 20px;
+    }
 }
