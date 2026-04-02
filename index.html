@@ -30,7 +30,7 @@
         }
         function HowAreYou() {
             let feelings = prompt("How are you feeling");
-            respond(feelings)
+            respond(feelings);
         }
 
         function respond(mood) {
@@ -76,9 +76,16 @@
             daughter: "Jie",
             pet: cat,
         };
-        console.log(family)
+        console.log(family);
         family.pet.happy = true;
-        console.log(console)
+        console.log(console);
+
+        function AddTwo(Value) {
+            console.log(Value + 2);
+            return Value + 2;
+        }
+        let result = AddTwo(9);
+        console.log("result", result);
     </script>
     <footer>
         <p>2026/12/3</p>
