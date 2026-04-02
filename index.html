@@ -7,7 +7,7 @@
     </head>
 
         <body id ="dark">
-            <button id = "color-mode" onclick = "changeColors();">
+            <button id = "color-mode" onclick = "ChangeColors();">
                 light mode
             </button>
             <button onclick = "HowAreYou();">
@@ -18,23 +18,35 @@
                 const colorModeButton = document.querySelector('#color-mode')
 
 
-                function changeColors(){
+            function ChangeColors(){
                 if (document.body.id === "dark"){
                     document.body.id = 'light';
-                    colorModeButton.textContent = 'Dark mode'
+                    colorModeButton.textContent = 'Dark mode';
                 }else{
                     document.body.id = 'dark';
-                    colorModeButton.textContent = 'light mode'
+                    colorModeButton.textContent = 'light mode';
                 }
             }
-                function howAreYou(){
-                let mood = prompt("How are you feeling");
+            function HowAreYou(){
+                let feelings = prompt("How are you feeling");
+                respond(feelings)
+            }
+            
+            function respond(mood){
                 if(mood === "sleepy"){
                     alert('WAKE UP');
                 }else{
                     alert("Oh! You are Feeling " + mood + ".");
                 }
-                console.log(mood);}
+            }
+            
+            console.log("mood", typeof mood);
+            console.log("hi");
+            if(true) {
+                let insideIf = 'yep';
+                console.log(typeof insideIf)
+            }
+         
             </script>
 
 
