@@ -1,32 +1,37 @@
-#dark{
+#dark {
     border: 5px solid white;
     background-color: black;
 
-p  {
-    background-color: black;
+    p {
+        background-color: black;
         color: rgb(0, 255, 225);
         padding: 20px;
-}
-h1 {
-    background-color: black;
+    }
+
+    h1 {
+        background-color: black;
         color: rgb(0, 255, 225);
-        padding: 20px;  
-}
-h2 {
-    background-color: black;
-        color: rgb(0, 55, 255);    
         padding: 20px;
-}
+    }
+
+    h2 {
+        background-color: black;
+        color: rgb(0, 55, 255);
+        padding: 20px;
+    }
+
     h3 {
-    background-color: black;    
-        color: rgb(0, 55, 255);    
+        background-color: black;
+        color: rgb(0, 55, 255);
         padding: 20px;
-}
-    footer p{
+    }
+
+    footer p {
         margin-block: 0;
         padding: 0;
     }
-    footer{
+
+    footer {
         padding: 20px;
     }
 }
